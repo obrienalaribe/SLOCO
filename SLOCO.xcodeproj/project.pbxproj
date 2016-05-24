@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E3DA571CF4F3D000553DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA561CF4F3D000553DAC /* AppDelegate.swift */; };
+		04E3DA591CF4F3D000553DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA581CF4F3D000553DAC /* ViewController.swift */; };
+		04E3DA5C1CF4F3D000553DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA5A1CF4F3D000553DAC /* Main.storyboard */; };
+		04E3DA5F1CF4F3D000553DAC /* SLOCO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA5D1CF4F3D000553DAC /* SLOCO.xcdatamodeld */; };
+		04E3DA611CF4F3D000553DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA601CF4F3D000553DAC /* Assets.xcassets */; };
+		04E3DA641CF4F3D000553DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */; };
+		04E3DA6F1CF4F3D000553DAC /* SLOCOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA6E1CF4F3D000553DAC /* SLOCOTests.swift */; };
+		04E3DA7A1CF4F3D000553DAC /* SLOCOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA791CF4F3D000553DAC /* SLOCOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E3DA6B1CF4F3D000553DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3DA4B1CF4F3D000553DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3DA521CF4F3D000553DAC;
+			remoteInfo = SLOCO;
+		};
+		04E3DA761CF4F3D000553DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E3DA4B1CF4F3D000553DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E3DA521CF4F3D000553DAC;
+			remoteInfo = SLOCO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E3DA531CF4F3D000553DAC /* SLOCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLOCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3DA561CF4F3D000553DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E3DA581CF4F3D000553DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E3DA5B1CF4F3D000553DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E3DA5E1CF4F3D000553DAC /* SLOCO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLOCO.xcdatamodel; sourceTree = "<group>"; };
+		04E3DA601CF4F3D000553DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E3DA631CF4F3D000553DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E3DA651CF4F3D000553DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3DA6A1CF4F3D000553DAC /* SLOCOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOCOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3DA6E1CF4F3D000553DAC /* SLOCOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOCOTests.swift; sourceTree = "<group>"; };
+		04E3DA701CF4F3D000553DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3DA751CF4F3D000553DAC /* SLOCOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOCOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3DA791CF4F3D000553DAC /* SLOCOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOCOUITests.swift; sourceTree = "<group>"; };
+		04E3DA7B1CF4F3D000553DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E3DA501CF4F3D000553DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA671CF4F3D000553DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA721CF4F3D000553DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3DA4A1CF4F3D000553DAC = {
+			isa = PBXGroup;
+			children = (
+				04E3DA551CF4F3D000553DAC /* SLOCO */,
+				04E3DA6D1CF4F3D000553DAC /* SLOCOTests */,
+				04E3DA781CF4F3D000553DAC /* SLOCOUITests */,
+				04E3DA541CF4F3D000553DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E3DA541CF4F3D000553DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA531CF4F3D000553DAC /* SLOCO.app */,
+				04E3DA6A1CF4F3D000553DAC /* SLOCOTests.xctest */,
+				04E3DA751CF4F3D000553DAC /* SLOCOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E3DA551CF4F3D000553DAC /* SLOCO */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA561CF4F3D000553DAC /* AppDelegate.swift */,
+				04E3DA581CF4F3D000553DAC /* ViewController.swift */,
+				04E3DA5A1CF4F3D000553DAC /* Main.storyboard */,
+				04E3DA601CF4F3D000553DAC /* Assets.xcassets */,
+				04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */,
+				04E3DA651CF4F3D000553DAC /* Info.plist */,
+				04E3DA5D1CF4F3D000553DAC /* SLOCO.xcdatamodeld */,
+			);
+			path = SLOCO;
+			sourceTree = "<group>";
+		};
+		04E3DA6D1CF4F3D000553DAC /* SLOCOTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA6E1CF4F3D000553DAC /* SLOCOTests.swift */,
+				04E3DA701CF4F3D000553DAC /* Info.plist */,
+			);
+			path = SLOCOTests;
+			sourceTree = "<group>";
+		};
+		04E3DA781CF4F3D000553DAC /* SLOCOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA791CF4F3D000553DAC /* SLOCOUITests.swift */,
+				04E3DA7B1CF4F3D000553DAC /* Info.plist */,
+			);
+			path = SLOCOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E3DA521CF4F3D000553DAC /* SLOCO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3DA7E1CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCO" */;
+			buildPhases = (
+				04E3DA4F1CF4F3D000553DAC /* Sources */,
+				04E3DA501CF4F3D000553DAC /* Frameworks */,
+				04E3DA511CF4F3D000553DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLOCO;
+			productName = SLOCO;
+			productReference = 04E3DA531CF4F3D000553DAC /* SLOCO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E3DA691CF4F3D000553DAC /* SLOCOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3DA811CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOTests" */;
+			buildPhases = (
+				04E3DA661CF4F3D000553DAC /* Sources */,
+				04E3DA671CF4F3D000553DAC /* Frameworks */,
+				04E3DA681CF4F3D000553DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3DA6C1CF4F3D000553DAC /* PBXTargetDependency */,
+			);
+			name = SLOCOTests;
+			productName = SLOCOTests;
+			productReference = 04E3DA6A1CF4F3D000553DAC /* SLOCOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E3DA741CF4F3D000553DAC /* SLOCOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3DA841CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOUITests" */;
+			buildPhases = (
+				04E3DA711CF4F3D000553DAC /* Sources */,
+				04E3DA721CF4F3D000553DAC /* Frameworks */,
+				04E3DA731CF4F3D000553DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E3DA771CF4F3D000553DAC /* PBXTargetDependency */,
+			);
+			name = SLOCOUITests;
+			productName = SLOCOUITests;
+			productReference = 04E3DA751CF4F3D000553DAC /* SLOCOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E3DA4B1CF4F3D000553DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sloco;
+				TargetAttributes = {
+					04E3DA521CF4F3D000553DAC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ND37B5VWDX;
+					};
+					04E3DA691CF4F3D000553DAC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ND37B5VWDX;
+						TestTargetID = 04E3DA521CF4F3D000553DAC;
+					};
+					04E3DA741CF4F3D000553DAC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ND37B5VWDX;
+						TestTargetID = 04E3DA521CF4F3D000553DAC;
+					};
+				};
+			};
+			buildConfigurationList = 04E3DA4E1CF4F3D000553DAC /* Build configuration list for PBXProject "SLOCO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E3DA4A1CF4F3D000553DAC;
+			productRefGroup = 04E3DA541CF4F3D000553DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E3DA521CF4F3D000553DAC /* SLOCO */,
+				04E3DA691CF4F3D000553DAC /* SLOCOTests */,
+				04E3DA741CF4F3D000553DAC /* SLOCOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E3DA511CF4F3D000553DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3DA641CF4F3D000553DAC /* LaunchScreen.storyboard in Resources */,
+				04E3DA611CF4F3D000553DAC /* Assets.xcassets in Resources */,
+				04E3DA5C1CF4F3D000553DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA681CF4F3D000553DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA731CF4F3D000553DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E3DA4F1CF4F3D000553DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3DA591CF4F3D000553DAC /* ViewController.swift in Sources */,
+				04E3DA571CF4F3D000553DAC /* AppDelegate.swift in Sources */,
+				04E3DA5F1CF4F3D000553DAC /* SLOCO.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA661CF4F3D000553DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3DA6F1CF4F3D000553DAC /* SLOCOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E3DA711CF4F3D000553DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3DA7A1CF4F3D000553DAC /* SLOCOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E3DA6C1CF4F3D000553DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3DA521CF4F3D000553DAC /* SLOCO */;
+			targetProxy = 04E3DA6B1CF4F3D000553DAC /* PBXContainerItemProxy */;
+		};
+		04E3DA771CF4F3D000553DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E3DA521CF4F3D000553DAC /* SLOCO */;
+			targetProxy = 04E3DA761CF4F3D000553DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E3DA5A1CF4F3D000553DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3DA5B1CF4F3D000553DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3DA631CF4F3D000553DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E3DA7C1CF4F3D000553DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E3DA7D1CF4F3D000553DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E3DA7F1CF4F3D000553DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLOCO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E3DA801CF4F3D000553DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLOCO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E3DA821CF4F3D000553DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLOCOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLOCO.app/SLOCO";
+			};
+			name = Debug;
+		};
+		04E3DA831CF4F3D000553DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLOCOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLOCO.app/SLOCO";
+			};
+			name = Release;
+		};
+		04E3DA851CF4F3D000553DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLOCOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLOCO;
+			};
+			name = Debug;
+		};
+		04E3DA861CF4F3D000553DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLOCOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLOCO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E3DA4E1CF4F3D000553DAC /* Build configuration list for PBXProject "SLOCO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3DA7C1CF4F3D000553DAC /* Debug */,
+				04E3DA7D1CF4F3D000553DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3DA7E1CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3DA7F1CF4F3D000553DAC /* Debug */,
+				04E3DA801CF4F3D000553DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E3DA811CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3DA821CF4F3D000553DAC /* Debug */,
+				04E3DA831CF4F3D000553DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E3DA841CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3DA851CF4F3D000553DAC /* Debug */,
+				04E3DA861CF4F3D000553DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E3DA5D1CF4F3D000553DAC /* SLOCO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E3DA5E1CF4F3D000553DAC /* SLOCO.xcdatamodel */,
+			);
+			currentVersion = 04E3DA5E1CF4F3D000553DAC /* SLOCO.xcdatamodel */;
+			path = SLOCO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04E3DA4B1CF4F3D000553DAC /* Project object */;
+}
