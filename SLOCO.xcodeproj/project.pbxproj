@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042851D51D06D18400222714 /* MessageViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042851D41D06D18400222714 /* MessageViewControllerHelper.swift */; };
+		042851D81D06D43200222714 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042851D61D06D43200222714 /* Message+CoreDataProperties.swift */; };
+		042851D91D06D43200222714 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042851D71D06D43200222714 /* Message.swift */; };
+		0451EE401D07AF0100160CB3 /* CLBackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE3F1D07AF0100160CB3 /* CLBackspaceDetectingTextField.swift */; };
+		0451EE421D07AF2B00160CB3 /* CLToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE411D07AF2B00160CB3 /* CLToken.swift */; };
+		0451EE441D07AF5E00160CB3 /* CLTokenInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE431D07AF5E00160CB3 /* CLTokenInputView.swift */; };
+		0451EE461D07AF9A00160CB3 /* CLTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE451D07AF9A00160CB3 /* CLTokenView.swift */; };
+		0451EE481D07B00400160CB3 /* TokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE471D07B00400160CB3 /* TokenViewController.swift */; };
+		0451EE4C1D12EA8B00160CB3 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE4B1D12EA8B00160CB3 /* ChatLogController.swift */; };
+		0451EE571D1B79CD00160CB3 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE561D1B79CD00160CB3 /* EventViewController.swift */; };
+		0451EE5D1D1F543400160CB3 /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE5C1D1F543400160CB3 /* EventPageViewController.swift */; };
+		0451EE5F1D1F6A8B00160CB3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451EE5E1D1F6A8B00160CB3 /* DateExtension.swift */; };
+		0475D8561CFE6D1C00151E2C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475D8551CFE6D1C00151E2C /* MessageViewController.swift */; };
+		0475D8591D06517400151E2C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475D8581D06517400151E2C /* NotificationViewController.swift */; };
+		04C3030D1CFDA797002CB9CF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3030C1CFDA797002CB9CF /* RegisterViewController.swift */; };
+		04C3030F1CFDB7D3002CB9CF /* StoryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3030E1CFDB7D3002CB9CF /* StoryMenuViewController.swift */; };
+		04C303111CFDBB14002CB9CF /* StoryPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C303101CFDBB14002CB9CF /* StoryPhotoViewController.swift */; };
+		04C303131CFDD161002CB9CF /* AddStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C303121CFDD161002CB9CF /* AddStoryViewController.swift */; };
 		04E3DA571CF4F3D000553DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA561CF4F3D000553DAC /* AppDelegate.swift */; };
 		04E3DA591CF4F3D000553DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA581CF4F3D000553DAC /* ViewController.swift */; };
-		04E3DA5C1CF4F3D000553DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA5A1CF4F3D000553DAC /* Main.storyboard */; };
 		04E3DA5F1CF4F3D000553DAC /* SLOCO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA5D1CF4F3D000553DAC /* SLOCO.xcdatamodeld */; };
 		04E3DA611CF4F3D000553DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA601CF4F3D000553DAC /* Assets.xcassets */; };
 		04E3DA641CF4F3D000553DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */; };
 		04E3DA6F1CF4F3D000553DAC /* SLOCOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA6E1CF4F3D000553DAC /* SLOCOTests.swift */; };
 		04E3DA7A1CF4F3D000553DAC /* SLOCOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA791CF4F3D000553DAC /* SLOCOUITests.swift */; };
+		04E3DA961CF4FF3600553DAC /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA951CF4FF3600553DAC /* CustomTabBarController.swift */; };
+		04E3DA981CF5005C00553DAC /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA971CF5005C00553DAC /* TimelineViewController.swift */; };
+		04E3DA9B1CF5041400553DAC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA9A1CF5041400553DAC /* ColorExtension.swift */; };
+		04E3DA9D1CF504CC00553DAC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA9C1CF504CC00553DAC /* UIViewExtension.swift */; };
+		04E3DAA01CF506CD00553DAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DA9F1CF506CD00553DAC /* LoginViewController.swift */; };
+		04E3DAA21CF50E0300553DAC /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DAA11CF50E0300553DAC /* BaseCollectionCell.swift */; };
+		04E3DAA51CF5B3A300553DAC /* DataSourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DAA41CF5B3A300553DAC /* DataSourceHelper.swift */; };
+		04E3DABE1CF5B5DD00553DAC /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DABA1CF5B5DD00553DAC /* User+CoreDataProperties.swift */; };
+		04E3DABF1CF5B5DD00553DAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DABB1CF5B5DD00553DAC /* User.swift */; };
+		04E3DAC01CF5B5DD00553DAC /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DABC1CF5B5DD00553DAC /* Profile+CoreDataProperties.swift */; };
+		04E3DAC11CF5B5DD00553DAC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3DABD1CF5B5DD00553DAC /* Profile.swift */; };
+		9B7558B10E9CE4C2BCC9FFFA /* Pods_SLOCO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C815448D3E52354D31774D1 /* Pods_SLOCO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +64,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042851D41D06D18400222714 /* MessageViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewControllerHelper.swift; sourceTree = "<group>"; };
+		042851D61D06D43200222714 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		042851D71D06D43200222714 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0451EE3F1D07AF0100160CB3 /* CLBackspaceDetectingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBackspaceDetectingTextField.swift; sourceTree = "<group>"; };
+		0451EE411D07AF2B00160CB3 /* CLToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLToken.swift; sourceTree = "<group>"; };
+		0451EE431D07AF5E00160CB3 /* CLTokenInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTokenInputView.swift; sourceTree = "<group>"; };
+		0451EE451D07AF9A00160CB3 /* CLTokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTokenView.swift; sourceTree = "<group>"; };
+		0451EE471D07B00400160CB3 /* TokenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenViewController.swift; sourceTree = "<group>"; };
+		0451EE4B1D12EA8B00160CB3 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		0451EE531D1B579000160CB3 /* SLOCO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLOCO-Bridging-Header.h"; sourceTree = "<group>"; };
+		0451EE561D1B79CD00160CB3 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		0451EE5C1D1F543400160CB3 /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
+		0451EE5E1D1F6A8B00160CB3 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		0475D8551CFE6D1C00151E2C /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		0475D8581D06517400151E2C /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		04C3030C1CFDA797002CB9CF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04C3030E1CFDB7D3002CB9CF /* StoryMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryMenuViewController.swift; sourceTree = "<group>"; };
+		04C303101CFDBB14002CB9CF /* StoryPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPhotoViewController.swift; sourceTree = "<group>"; };
+		04C303121CFDD161002CB9CF /* AddStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStoryViewController.swift; sourceTree = "<group>"; };
 		04E3DA531CF4F3D000553DAC /* SLOCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLOCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3DA561CF4F3D000553DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E3DA581CF4F3D000553DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04E3DA5B1CF4F3D000553DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E3DA5E1CF4F3D000553DAC /* SLOCO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLOCO.xcdatamodel; sourceTree = "<group>"; };
 		04E3DA601CF4F3D000553DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E3DA631CF4F3D000553DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +96,20 @@
 		04E3DA751CF4F3D000553DAC /* SLOCOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOCOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3DA791CF4F3D000553DAC /* SLOCOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOCOUITests.swift; sourceTree = "<group>"; };
 		04E3DA7B1CF4F3D000553DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3DA951CF4FF3600553DAC /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		04E3DA971CF5005C00553DAC /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		04E3DA9A1CF5041400553DAC /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		04E3DA9C1CF504CC00553DAC /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		04E3DA9F1CF506CD00553DAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E3DAA11CF50E0300553DAC /* BaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		04E3DAA41CF5B3A300553DAC /* DataSourceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceHelper.swift; sourceTree = "<group>"; };
+		04E3DABA1CF5B5DD00553DAC /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04E3DABB1CF5B5DD00553DAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04E3DABC1CF5B5DD00553DAC /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04E3DABD1CF5B5DD00553DAC /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4C815448D3E52354D31774D1 /* Pods_SLOCO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOCO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AB2DB42B27128C8C580087 /* Pods-SLOCO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOCO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLOCO/Pods-SLOCO.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F0AD2CD24F53E6C2939C1F /* Pods-SLOCO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOCO.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLOCO/Pods-SLOCO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7558B10E9CE4C2BCC9FFFA /* Pods_SLOCO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +138,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0451EE4E1D1B376300160CB3 /* Nightinfo */ = {
+			isa = PBXGroup;
+			children = (
+				0451EE561D1B79CD00160CB3 /* EventViewController.swift */,
+				0451EE5C1D1F543400160CB3 /* EventPageViewController.swift */,
+			);
+			name = Nightinfo;
+			sourceTree = "<group>";
+		};
+		0475D8541CFE6B2800151E2C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				0475D8551CFE6D1C00151E2C /* MessageViewController.swift */,
+				0451EE4B1D12EA8B00160CB3 /* ChatLogController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		0475D8571D06516100151E2C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0475D8581D06517400151E2C /* NotificationViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		04C3030B1CFDA76F002CB9CF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				04C3030C1CFDA797002CB9CF /* RegisterViewController.swift */,
+				0451EE3F1D07AF0100160CB3 /* CLBackspaceDetectingTextField.swift */,
+				0451EE411D07AF2B00160CB3 /* CLToken.swift */,
+				0451EE431D07AF5E00160CB3 /* CLTokenInputView.swift */,
+				0451EE451D07AF9A00160CB3 /* CLTokenView.swift */,
+				0451EE471D07B00400160CB3 /* TokenViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
 		04E3DA4A1CF4F3D000553DAC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +184,8 @@
 				04E3DA6D1CF4F3D000553DAC /* SLOCOTests */,
 				04E3DA781CF4F3D000553DAC /* SLOCOUITests */,
 				04E3DA541CF4F3D000553DAC /* Products */,
+				C3EADC911B899BE6145A248D /* Pods */,
+				1B0943757466C3A4EC78C4A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +202,15 @@
 		04E3DA551CF4F3D000553DAC /* SLOCO */ = {
 			isa = PBXGroup;
 			children = (
+				04E3DA871CF4F42800553DAC /* Classes */,
 				04E3DA561CF4F3D000553DAC /* AppDelegate.swift */,
+				04E3DA951CF4FF3600553DAC /* CustomTabBarController.swift */,
 				04E3DA581CF4F3D000553DAC /* ViewController.swift */,
-				04E3DA5A1CF4F3D000553DAC /* Main.storyboard */,
 				04E3DA601CF4F3D000553DAC /* Assets.xcassets */,
 				04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */,
 				04E3DA651CF4F3D000553DAC /* Info.plist */,
 				04E3DA5D1CF4F3D000553DAC /* SLOCO.xcdatamodeld */,
+				0451EE531D1B579000160CB3 /* SLOCO-Bridging-Header.h */,
 			);
 			path = SLOCO;
 			sourceTree = "<group>";
@@ -128,6 +233,107 @@
 			path = SLOCOUITests;
 			sourceTree = "<group>";
 		};
+		04E3DA871CF4F42800553DAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA991CF503E900553DAC /* Utils */,
+				04E3DA8B1CF4F88300553DAC /* Models */,
+				04E3DA8A1CF4F7A500553DAC /* CoreData */,
+				04E3DA881CF4F42F00553DAC /* Modules */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		04E3DA881CF4F42F00553DAC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0451EE4E1D1B376300160CB3 /* Nightinfo */,
+				0475D8571D06516100151E2C /* Notification */,
+				0475D8541CFE6B2800151E2C /* Messages */,
+				04C3030B1CFDA76F002CB9CF /* Register */,
+				04E3DA9E1CF5056500553DAC /* Story */,
+				04E3DA891CF4F43A00553DAC /* Login */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		04E3DA891CF4F43A00553DAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA9F1CF506CD00553DAC /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		04E3DA8A1CF4F7A500553DAC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DAA31CF5B38100553DAC /* Helpers */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		04E3DA8B1CF4F88300553DAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042851D61D06D43200222714 /* Message+CoreDataProperties.swift */,
+				042851D71D06D43200222714 /* Message.swift */,
+				04E3DABA1CF5B5DD00553DAC /* User+CoreDataProperties.swift */,
+				04E3DABB1CF5B5DD00553DAC /* User.swift */,
+				04E3DABC1CF5B5DD00553DAC /* Profile+CoreDataProperties.swift */,
+				04E3DABD1CF5B5DD00553DAC /* Profile.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04E3DA991CF503E900553DAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA9A1CF5041400553DAC /* ColorExtension.swift */,
+				04E3DA9C1CF504CC00553DAC /* UIViewExtension.swift */,
+				04E3DAA11CF50E0300553DAC /* BaseCollectionCell.swift */,
+				0451EE5E1D1F6A8B00160CB3 /* DateExtension.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		04E3DA9E1CF5056500553DAC /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DA971CF5005C00553DAC /* TimelineViewController.swift */,
+				04C3030E1CFDB7D3002CB9CF /* StoryMenuViewController.swift */,
+				04C303101CFDBB14002CB9CF /* StoryPhotoViewController.swift */,
+				04C303121CFDD161002CB9CF /* AddStoryViewController.swift */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		04E3DAA31CF5B38100553DAC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04E3DAA41CF5B3A300553DAC /* DataSourceHelper.swift */,
+				042851D41D06D18400222714 /* MessageViewControllerHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1B0943757466C3A4EC78C4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C815448D3E52354D31774D1 /* Pods_SLOCO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3EADC911B899BE6145A248D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93AB2DB42B27128C8C580087 /* Pods-SLOCO.debug.xcconfig */,
+				B2F0AD2CD24F53E6C2939C1F /* Pods-SLOCO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E3DA7E1CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCO" */;
 			buildPhases = (
+				36138E6760AC319A5A0D720B /* Check Pods Manifest.lock */,
 				04E3DA4F1CF4F3D000553DAC /* Sources */,
 				04E3DA501CF4F3D000553DAC /* Frameworks */,
 				04E3DA511CF4F3D000553DAC /* Resources */,
+				151DF672039E445A4E82E333 /* Embed Pods Frameworks */,
+				B7C6124AEAEAFE8DF181553B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +446,6 @@
 			files = (
 				04E3DA641CF4F3D000553DAC /* LaunchScreen.storyboard in Resources */,
 				04E3DA611CF4F3D000553DAC /* Assets.xcassets in Resources */,
-				04E3DA5C1CF4F3D000553DAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +465,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		151DF672039E445A4E82E333 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLOCO/Pods-SLOCO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36138E6760AC319A5A0D720B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C6124AEAEAFE8DF181553B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLOCO/Pods-SLOCO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E3DA4F1CF4F3D000553DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042851D81D06D43200222714 /* Message+CoreDataProperties.swift in Sources */,
+				0451EE5F1D1F6A8B00160CB3 /* DateExtension.swift in Sources */,
+				042851D51D06D18400222714 /* MessageViewControllerHelper.swift in Sources */,
+				0451EE401D07AF0100160CB3 /* CLBackspaceDetectingTextField.swift in Sources */,
+				04E3DAA01CF506CD00553DAC /* LoginViewController.swift in Sources */,
 				04E3DA591CF4F3D000553DAC /* ViewController.swift in Sources */,
 				04E3DA571CF4F3D000553DAC /* AppDelegate.swift in Sources */,
+				04E3DAC11CF5B5DD00553DAC /* Profile.swift in Sources */,
+				04E3DA9D1CF504CC00553DAC /* UIViewExtension.swift in Sources */,
+				04E3DA961CF4FF3600553DAC /* CustomTabBarController.swift in Sources */,
+				04C3030D1CFDA797002CB9CF /* RegisterViewController.swift in Sources */,
+				04E3DAA51CF5B3A300553DAC /* DataSourceHelper.swift in Sources */,
+				04E3DA981CF5005C00553DAC /* TimelineViewController.swift in Sources */,
+				04E3DABE1CF5B5DD00553DAC /* User+CoreDataProperties.swift in Sources */,
+				0451EE571D1B79CD00160CB3 /* EventViewController.swift in Sources */,
+				0475D8591D06517400151E2C /* NotificationViewController.swift in Sources */,
+				0451EE5D1D1F543400160CB3 /* EventPageViewController.swift in Sources */,
+				0451EE421D07AF2B00160CB3 /* CLToken.swift in Sources */,
+				04E3DABF1CF5B5DD00553DAC /* User.swift in Sources */,
+				04C303111CFDBB14002CB9CF /* StoryPhotoViewController.swift in Sources */,
+				04E3DAC01CF5B5DD00553DAC /* Profile+CoreDataProperties.swift in Sources */,
 				04E3DA5F1CF4F3D000553DAC /* SLOCO.xcdatamodeld in Sources */,
+				0451EE461D07AF9A00160CB3 /* CLTokenView.swift in Sources */,
+				042851D91D06D43200222714 /* Message.swift in Sources */,
+				0451EE441D07AF5E00160CB3 /* CLTokenInputView.swift in Sources */,
+				0475D8561CFE6D1C00151E2C /* MessageViewController.swift in Sources */,
+				04C3030F1CFDB7D3002CB9CF /* StoryMenuViewController.swift in Sources */,
+				0451EE481D07B00400160CB3 /* TokenViewController.swift in Sources */,
+				04E3DAA21CF50E0300553DAC /* BaseCollectionCell.swift in Sources */,
+				04C303131CFDD161002CB9CF /* AddStoryViewController.swift in Sources */,
+				0451EE4C1D12EA8B00160CB3 /* ChatLogController.swift in Sources */,
+				04E3DA9B1CF5041400553DAC /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +585,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04E3DA5A1CF4F3D000553DAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E3DA5B1CF4F3D000553DAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04E3DA621CF4F3D000553DAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -404,23 +681,27 @@
 		};
 		04E3DA7F1CF4F3D000553DAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AB2DB42B27128C8C580087 /* Pods-SLOCO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLOCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLOCO/SLOCO-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		04E3DA801CF4F3D000553DAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F0AD2CD24F53E6C2939C1F /* Pods-SLOCO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLOCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sloco.SLOCO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLOCO/SLOCO-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +770,7 @@
 				04E3DA801CF4F3D000553DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E3DA811CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +779,7 @@
 				04E3DA831CF4F3D000553DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E3DA841CF4F3D000553DAC /* Build configuration list for PBXNativeTarget "SLOCOUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +788,7 @@
 				04E3DA861CF4F3D000553DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

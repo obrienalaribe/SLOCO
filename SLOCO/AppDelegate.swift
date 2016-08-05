@@ -8,17 +8,40 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.makeKeyAndVisible()
+        IQKeyboardManager.sharedManager().enable = true
+
+        
+        window?.rootViewController = LoginViewController()
+        
+        let pageVC = WeeklyEventViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
+        
+//        window?.rootViewController = pageVC
+
+        
+//        window?.rootViewController = NightInfoViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        
+        let dataSourceHelper = DataSourceHelper(context: self.managedObjectContext)
+        
+//        dataSourceHelper.seedDataStore()
+//        dataSourceHelper.printUsers()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.blackColor()]
+        
+        application.statusBarStyle = .LightContent
+
         return true
     }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -59,13 +82,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
 
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
-        // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
-        // Create the coordinator and store
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+//        
+//        do {
+//            try NSFileManager.defaultManager().removeItemAtURL(url)
+//        } catch _ {
+////            fatalError("There was an error cleaning the persistent store")
+//        }
+        
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
-            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
+            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: [NSMigratePersistentStoresAutomaticallyOption: true,
+                NSInferMappingModelAutomaticallyOption: true]) //options set ensure auto migration
+            
         } catch {
             // Report any error we got.
             var dict = [String: AnyObject]()

@@ -1,0 +1,34 @@
+PODS:
+  - FA_TokenInputView (0.1.7)
+  - Fakery (1.2.0):
+    - SwiftyJSON
+  - FontAwesome.swift (0.7.3)
+  - HTHorizontalSelectionList (0.7.2):
+    - M13BadgeView (~> 1.0.4)
+  - IQKeyboardManagerSwift (4.0.3)
+  - M13BadgeView (1.0.4)
+  - Material (1.41.2)
+  - SwiftHEXColors (1.0.4)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - FA_TokenInputView
+  - Fakery
+  - FontAwesome.swift
+  - HTHorizontalSelectionList (~> 0.7.2)
+  - IQKeyboardManagerSwift
+  - Material (~> 1.41)
+  - SwiftHEXColors
+
+SPEC CHECKSUMS:
+  FA_TokenInputView: f5e4d6fde317f6125165853a0fa9a6ecc390f888
+  Fakery: ff6a27c3688a05c055d3e64c5fa9d78684796749
+  FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
+  HTHorizontalSelectionList: 1ce35f094c6fe4913fae15b50ba407b125f26865
+  IQKeyboardManagerSwift: b6883b720b0e76473692fdc80828442566e1075f
+  M13BadgeView: 700dd0714fdc837c0cf1c8c004454963ec22441f
+  Material: a695183e071df1136b6c386e482c6e4182649e26
+  SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
